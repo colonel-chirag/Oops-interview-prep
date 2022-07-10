@@ -1,5 +1,14 @@
 # Oops-interview-prep
 
+What is OOPS?
+Object-Oriented Programming (OOP) is a programming model that uses classes and objects. It’s utilized to break down a software program into reusable code blueprints (called classes) that you may use to build specific instances of things. Object-oriented programming languages include JavaScript, C++, Java, and Python, to name a few. 
+
+Individual objects are created using class templates as a blueprint. For example, MyCar and goldenRetriever are two particular instances of the abstract class. The attributes specified in the class may have unique values for each object.  
+
+A class is a generic template that you may use to create more specialized, concrete things. Classes are commonly used to indicate large groupings with similar characteristics. Classes may also have functions known as methods that are exclusively accessible to objects of that kind. These functions are specified inside the class and execute an action beneficial to that particular object type. 
+
+
+
 OOPs, or Object-Oriented Programming is a programming model or paradigm which revolves around the concept of “OBJECTS”. Objects can be considered as real-world instances of entities like class, that contain some characteristics and behaviors specified in the class template.
 
 In simple language, a class can be considered as the blueprint or template, based on which objects can be created. So the Objects are considered the instance of a class, and are therefore sometimes called “instances”. The term “characteristics” refers to the “what” about the Object, and the term “behavior” refers to the “how” about the Object.
@@ -501,4 +510,106 @@ Output:
 Inside B
 Reason:
 The above program implements a Multi-level hierarchy. So the program is linearly searched up until a matching function is found. Here, it is present in both classes A and B. So class B’s print() method is called. 
+
+ Top Features of OOPS
+Here are the top features of OOPS
+
+OOPS Features
+Inheritance
+In layman’s terms, the attributes that you inherit from your parents are a simple illustration of inheritance. Classes may inherit characteristics from other classes thanks to inheritance. Parent classes, in other words, extend properties and behaviors to child classes. Reusability is aided via inheritance. Prototyping is another name for inheritance in JavaScript. A prototype object serves as a base from which another object may derive its features and actions. Thus, you may use multiple prototype object templates to form a prototype chain. Inheritance is passed down from one generation to the next. parent  
+
+Consider the application Polygon, which represents several Shapes. We’re expected to make two distinct sorts of polygons: a Rectangle and a Triangle. 
+
+Encapsulation
+Encapsulation is the process of enclosing all critical information inside an object and only revealing a subset of it to the outside world. For example, code inside the class template defines attributes and behaviors. 
+
+The data and methods are then enclosed in the object when it is created from the class. Inside a class, encapsulation conceals the underlying software code implementation and the internal data of the objects. Encapsulation necessitates designating certain fields as private while others are made public.
+
+Methods and attributes only available from other methods in the same class make up the private/internal interface.
+Methods and attributes that are available from outside the class are known as the public / external interface. 
+Encapsulation Demonstration in Real-Time
+
+One of the most practical examples of encapsulation is a school bag. Our books, pencils, and other items may be kept in our school bag.
+
+The following are some of the advantages of encapsulation:
+
+Data Hiding: In this case, the user will be unaware of the class’s internal implementation. Even the user will have no idea how the class stores data in variables. He or she will only be aware that the values are sent to a setter method and that variables are initialised with that value.
+Increased Flexibility: Depending on our needs, we may make the variables of the class read-only or write-only. If you want to make the variables read-only, remove the setter methods like setName(), setAge(), and so on from the above programme. If you want to make the variables write-only, remove the get methods like getName(), getAge(), and so on from the above programme.
+It also promotes reusability and makes it simple to alter to meet new needs.
+Abstraction
+Abstraction refers to the user’s interaction with just a subset of an object’s characteristics and operations. To access a complicated item, abstraction uses simpler, high-level techniques.
+
+Simple items are used to show complexity.
+Keep complicated information hidden from the user.
+Simple classes are used to indicate complexity in abstraction. Encapsulation is an extension of abstraction. 
+
+A Real-Life Example of Abstraction
+
+Abstraction reveals just the most significant facts to the user while hiding the underlying intricacies. For example, when we ride a bike, we only know how to ride it but not how it works. We also have no idea how a bike works on the inside. 
+
+Advantages of Abstraction
+
+It simplifies the process of seeing things in their entirety.
+Code duplication is avoided, and reusability is increased.
+Because just the most necessary information is shown to the user, it helps to enhance the security of an application or software.
+Polymorphism
+Polymorphism refers to the creation of items that have similar behavior. For example, objects may override common parent behaviors with particular child behaviors through inheritance. Method overriding and method overloading are two ways that polymorphism enables the same method to perform various actions. 
+
+Examine how Polymorphism and the actual world are interconnected with examples. 
+
+Take, for example, your mobile phone. It has the capability of storing your Contacts. Consider the following scenario: you wish to store two numbers for one individual. You may do this by storing the second number under the same name as the first.
+
+Consider the following scenario: you wish to store two numbers for the same individual in an object-oriented language such as Java. Create a function that will accept as arguments two integers and the name of the individual to some function void createContact that will be defined later (String name, int number1, int number2). 
+
+Method Overriding
+Method overriding is used in runtime polymorphism. When a child class overrides a parent class’s method, the child class might offer an alternative implementation. 
+
+Consider a family of three, consisting of the father, mother, and son. The father makes the decision to teach his kid to shoot. As a result, he brings him to the range with his favorite rifle and teaches him how to aim and fire at targets. The father, on the other hand, is right-handed, while the kid is left-handed. So they each have their own way of handling the pistol! Because of their differing orientations, the father was concerned that he may not be able to teach his son how to shoot.
+
+The son, on the other hand, was astute and chose to flip his father’s hands, putting his dominant hand on the trigger rather than the father’s. Specifically, the right hand. By significantly changing the learning process, the son was able to grasp the skill of shooting!
+
+Method overriding is the term used in programming to describe this idea. 
+
+Method Overloading
+Method overloading is used in Compile Time Polymorphism. Although two methods or functions may have the same name, the number of arguments given into the method call may vary. Therefore, depending on the number of parameters entered, you may obtain different results. 
+
+With the help of a simple example, it may be comprehended in simple words. A class addition contains two add() methods, one with arguments int a and int b and the other with three integer parameters, int a, int b, and int c. As a result, the add() function is considered overloaded.
+
+The amount of arguments given in the method calling statement determines which method is performed. For example, add(20,30) calls the two-parameter add() function, whereas add(10,20,30) calls the three-parameter add method
+
+Objects
+An object is a self-contained segment with the attributes and processes needed to make data usable in programming terms. From an object-oriented perspective, objects are the main building pieces of programs. In each application you create, you may employ a variety of objects of various sorts. Each kind of object is derived from a specific class of that type. Consider an object to be a sculpt of the real-world perceptions, processes, or objects that are important to the application you’re designing.
+
+A variable, function, or data structure may all be considered an object. The term “object” in object-oriented programming refers to a specific instance of a class. Objects are used in software development to combine data components with methods that alter them, allowing for the usage of abstract data structures. Objects in object-oriented programming are answers to the idea of inheritance, resulting in improved program dependability, simpler software maintenance, library administration, and task division in programmer teams. Of basic terms, “Objects” are the fundamental data types in object-oriented programming languages and are used to build object-oriented programming.
+
+Classes
+In the oops concept, a class is a construct that is used to describe an individual type. The class is instantiated into instances of itself – referred to as class instances or simply objects. A class defines ingredient members that allow its instances to have position and behavior. Member variables or instance variables facilitate a class instance to maintain its position. On the other hand, other kinds of members, especially methods, allow the behavior of class instances. Simply classes consequently define the type of their instances. A class usually represents a person, place or thing, or something.
+
+For example, a “Bird” class would symbolize the properties and functionality of birds. A single, particular bird would be an instance of the “Bird” class, an object of the type “Bird”. There is a set of access specifiers in classes. private (or class-private) specifiers restrict the entrance to the class itself. Only the methods that are elements of a similar class only can access private members. protected (or class-protected) specifies enables the class itself and all classes under it (sub-classes) to access the member and public means that member can be accessed by its name using any code.
+
+Constructors and Destructors
+Constructors in most object-oriented languages have the same name as the class and are public. Constructors may be overloaded, which means that multiple argument lists can be used with the same name. The function Object() { [native code] } in PHP 5.0 is the function _construct (). Normally, attribute values would be initialised in a function Object() { [native code] }. The _destruct() method is optional, although it might be used to implement code that cleans up once an object is destroyed, such as shutting files or database connections.
+
+OOP Advantages
+
+Complex things are modeled as repeatable, basic structures in OOP.
+Thus, OOP objects are reusable and may be utilized in several applications.
+Modularity for easier troubleshooting.
+Classes are easier to debug since they generally include all relevant information.
+Reuse of code through inheritance. 
+Conclusion
+Object-oriented programming necessitates planning and thinking about the program’s structure before starting to code and examining how to decompose the requirements into basic, reusable classes that you may utilize to create object instances. Overall, using OOP provides for more reusable data structures and saves time in the long run. 
+
+FAQs
+Q1: Which are the best features of OOPs, and why explain?
+Ans: Encapsulation, inheritance, and polymorphism are three fundamental elements of object-oriented programming that distinguish it from non-OOP languages. Encapsulation is the process of creating self-contained modules that connect processing processes to data. Classes are organized into hierarchies, and inheritance enables one class’s structure and functions to be transferred down the hierarchy. Finally, object-oriented programming enables the creation of procedures regarding objects whose precise type is unknown until runtime is known as polymorphism.
+
+Q2: What is an object in OOPs?
+Ans: A class instance is referred to as an object. A real-world object is something like a pen, a laptop, a phone, a bed, a keyboard, a mouse, or a chair. A physical entity is referred to as an object. In Java, there are many methods for creating objects, including the new keyword, the newInstance() method, the clone() method, the factory method, and deserialization. Here is the real-life example of an object in OOPS is: Class: Human, Object: Man, Woman
+
+Class: Fruit, Object: Apple, Banana, Mango, Guava, etc.
+
+Q3: What are the basic principles of OOPs?
+Ans: Abstraction, Encapsulation, Inheritance, and Polymorphism are the four core ideas of OOP. There are also classes and objects.
+
 
